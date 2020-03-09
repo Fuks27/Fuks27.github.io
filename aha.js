@@ -1,4 +1,3 @@
-
  function openPhoto(evt, photoName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
