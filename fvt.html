@@ -7,15 +7,11 @@
   border: 1px solid #000;
 }
 
-.body {
- fontFamily: Tahoma;
- }
- 
 .nadpis2 {
   fontFamily: ;
   color: #0B0D1F;
   border: 1px hidden;
-  fontFamily: Tahoma;
+  fontFamily: Tahoma, sans-serif;
   font-size: 20px;
 }
   .script {
@@ -71,6 +67,11 @@
   to {opacity: 1;}
 }
 
+body {
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -95,14 +96,13 @@
   display: none;
   position: fixed;
   z-index: 1;
-  padding-top: 2vw;
+  padding-top: 100px;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   overflow: auto;
   background-color: #0B0D1F;
-  align-content: center !important;
 }
 
 /* Modal Content */
@@ -112,7 +112,6 @@
   padding: 0;
   width: 90%;
   max-width: 1200px;
-  align-content: center !important;
   margin: auto;
 }
 
@@ -146,14 +145,13 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 40%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
   font-size: 20px;
-  transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -182,6 +180,7 @@
 
 img {
   margin-bottom: -4px;
+  vertical-align: middle;
 }
 
 .caption-container {
@@ -212,15 +211,20 @@ img.hover-shadow {
 
      <body onload="init();">   
     <div class="tab">
-      <button class="tablinks" onclick="openPhoto(event, 'DOD FVT')"><div class="nadpis2 clearfix">DOD FVT</div><br/><img src="https://fuks27.github.io/fvt/hdimg47c386e9467b9e1a440ed3cd7ce9a2.jpg" align="center" width="320vw" padding="5px" border/></button>
-      <button class="tablinks" onclick="openPhoto(event, 'Lyziarsky')"><div class="nadpis2 clearfix">Lyžiarsky výcvik</div><br/><img src="<uu5data/>file_big_ftv" align="center" width="320vw" padding="5px" border/></button>
-      <button class="tablinks" onclick="openPhoto(event, 'Stuzkova')"><div class="nadpis2 clearfix">Stužková</div><br/><img src="<uu5data/>file_big_stuzkova" align="center" width="320vw" padding="5px" border/></button>
-      <button class="tablinks" onclick="openPhoto(event, 'fingram')"><div class="nadpis2 clearfix">Finančná Gramotnosť</div><br/><img src="<uu5data/>file_small_fingram1" align="center" width="320vw" padding="5px" border/></button>
+      <button class="tablinks" onclick="openPhoto(event, 'DOD FVT')"><div class="nadpis2 clearfix">DOD FVT</div><br/><img src="https://fuks27.github.io/fvt/hdimg47c386e9467b9e1a440ed3cd7ce9a2.jpg" align="center" width="320vw"></button>
+      <button class="tablinks" onclick="openPhoto(event, 'Imatrikulacia')"><div class="nadpis2 clearfix">Imatrikulácia</div><br/><img src="<uu5data/>file_big_ftv" align="center" width="320vw"></button>
+      <button class="tablinks" onclick="openPhoto(event, 'Stuzkova')"><div class="nadpis2 clearfix">Stužková</div><br/><img src="<uu5data/>file_big_stuzkova" align="center" width="320vw"></button>
+      <button class="tablinks" onclick="openPhoto(event, 'fingram')"><div class="nadpis2 clearfix">Finančná Gramotnosť</div><br/><img src="<uu5data/>file_small_fingram1" align="center" width="320vw"></button>
     </div>
-    
+
+
+
+<!-- DOD FVT -->    
     <div id="DOD FVT" class="tabcontent">
       <h3>DOD FVT</h3>
       <p>Dňa 11.2.2020 sa žiaci z II.A, III.A a IV.A triedy zúčastnili Dňa otvorených dverí na TU FVT v Prešove na Štúrovej ulici</p>
+	  
+<!-- DOD FVT - galeria--> 
 <div>
 <div class="row">
   <div class="column">
@@ -308,21 +312,26 @@ function showSlides(n) {
 </script>
 </div>
     </div>
-    
-    <div id="Lyziarsky" class="tabcontent">
-      <h3>Lyžiarsky výcvik</h3>
+<!-- Imatrikulacia---->    
+    <div id="Imatrikulacia" class="tabcontent">
+      <h3>Imatrikulácia</h3>
       <p>.................</p> 
     </div>
-    
+<!-- DOD FVT - galeria--> 	
+
+<!-- Stužková -->        
     <div id="Stuzkova" class="tabcontent">
       <h3>Stužková</h3>
       <p>.................</p>
     </div>
-    
+<!-- Stužková - galeria--> 	
+
+<!-- Finančná Gramotnosť -->       
     <div id="fingram" class="tabcontent">
       <h3>Finančná Gramotnosť</h3>
       <p>.................</p>
     </div>
+<!-- Finačná gramotnosť - galeria--> 	
 <script type="text/javascript">
 
  function openPhoto(evt, photoName) {
@@ -341,8 +350,3 @@ function showSlides(n) {
 </script>
     </body>
 </html>
-
-
-
-
-                  
