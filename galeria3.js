@@ -1,8 +1,8 @@
-function openModal() {
+function openModal3() {
   document.getElementById("myModal3").style.display = "block";
 }
 
-function closeModal() {
+function closeModal3() {
   document.getElementById("myModal3").style.display = "none";
 }
 
