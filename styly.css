@@ -107,6 +107,30 @@ body {
   margin: auto;
 }
 
+/* The Modal (background) */
+.modal3 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 2vw;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #0B0D1F;
+}
+
+/* Modal Content */
+.modal-content3 {
+  position: relative;
+  background-color: #0B0D1F;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
 /* The Close Button */
 .close {
   color: white;
