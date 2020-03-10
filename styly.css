@@ -216,6 +216,15 @@ img {
   opacity: 1;
 }
 
+.demo3 {
+  opacity: 0.6;
+}
+
+.active,
+.demo3:hover {
+  opacity: 1;
+}
+
 img.hover-shadow {
   transition: 0.3s;
 }
