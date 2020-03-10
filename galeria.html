@@ -1,0 +1,107 @@
+<html>
+  <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+     <body onload="init();">   
+    <div class="tab">
+      <button class="tablinks" onclick="openPhoto(event, 'DOD FVT')"><div class="nadpis2 clearfix">DOD FVT</div><br/><img src="https://fuks27.github.io/fvt/hdimg47c386e9467b9e1a440ed3cd7ce9a2.jpg" align="center" width="320vw"></button>
+      <button class="tablinks" onclick="openPhoto(event, 'Imatrikulacia')"><div class="nadpis2 clearfix">Imatrikulácia</div><br/><img src="<uu5data/>file_big_ftv" align="center" width="320vw"></button>
+      <button class="tablinks" onclick="openPhoto(event, 'Stuzkova')"><div class="nadpis2 clearfix">Stužková</div><br/><img src="<uu5data/>file_big_stuzkova" align="center" width="320vw"></button>
+      <button class="tablinks" onclick="openPhoto(event, 'fingram')"><div class="nadpis2 clearfix">Finančná Gramotnosť</div><br/><img src="<uu5data/>file_small_fingram1" align="center" width="320vw"></button>
+    </div>
+
+
+
+<!-- DOD FVT -->    
+    <div id="DOD FVT" class="tabcontent">
+      <h3>DOD FVT</h3>
+      <p>Dňa 11.2.2020 sa žiaci z II.A, III.A a IV.A triedy zúčastnili Dňa otvorených dverí na TU FVT v Prešove na Štúrovej ulici.</p>
+	  
+<!-- DOD FVT - galeria--> 
+<div>
+<div class="row">
+  <div class="column">
+    <img src="https://fuks27.github.io/fvt/hdimg47c386e9467b9e1a440ed3cd7ce9a2.jpg" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="https://fuks27.github.io/fvt/hdimgbdd4a9fdc7764fbd72bddbc6eb49d3.jpg" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content" align="middle" >
+
+    <div class="mySlides">
+     	 <div class="numbertext">1 / 2</div>
+      <img src="https://fuks27.github.io/fvt/hdimg47c386e9467b9e1a440ed3cd7ce9a2.jpg" align="middle" style="width:47vw">
+    </div>
+
+    <div class="mySlides">
+     	 <div class="numbertext">2 / 2</div>
+      <img src="https://fuks27.github.io/fvt/hdimgbdd4a9fdc7764fbd72bddbc6eb49d3.jpg" align="middle" style="width:47vw">
+    </div>
+<div style="text-align: justify;">
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+<div>
+    <div class="column">
+      <img class="demo cursor" src="https://fuks27.github.io/fvt/hdimg47c386e9467b9e1a440ed3cd7ce9a2.jpg" style="width:75%" onclick="currentSlide(1)" /><nobr />
+    </div>
+    
+    <div class="column">
+      <img class="demo cursor" src="https://fuks27.github.io/fvt/hdimgbdd4a9fdc7764fbd72bddbc6eb49d3.jpg" style="width:75%" onclick="currentSlide(2)" /><nobr />
+    </div>
+  </div>
+</div>
+</div>
+
+<script type="text/javascript" src="galeria.js">
+</script>
+</div>
+    </div>
+<!-- Imatrikulacia---->    
+    <div id="Imatrikulacia" class="tabcontent">
+      <h3>Imatrikulácia</h3>
+      <p>.................</p> 
+    </div>
+<!-- Imatrikulacia - galeria--> 	
+
+<!-- Stužková -->        
+    <div id="Stuzkova" class="tabcontent">
+      <h3>Stužková</h3>
+      <p>.................</p>
+    </div>
+<!-- Stužková - galeria--> 	
+
+<!-- Finančná Gramotnosť -->       
+    <div id="fingram" class="tabcontent">
+      <h3>Finančná Gramotnosť</h3>
+      <p>.................</p>
+    </div>
+<!-- Finačná gramotnosť - galeria--> 	
+<script type="text/javascript" src="klik-gal.js">
+
+ function openPhoto(evt, photoName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(photoName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+    </body>
+</html>
