@@ -1,8 +1,8 @@
-function openModal2() {
+function openModal() {
   document.getElementById("myModal2").style.display = "block";
 }
 
-function closeModal2() {
+function closeModal() {
   document.getElementById("myModal2").style.display = "none";
 }
 
@@ -37,6 +37,6 @@ function showSlides(n) {
   document.onkeydown = function(evt) {
     evt = evt || window.event;
     if (evt.keyCode == 27) {
-        closeModal2();
+        closeModal();
     }
 }
