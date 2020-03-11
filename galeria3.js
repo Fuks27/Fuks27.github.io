@@ -7,17 +7,17 @@ function closeModal3() {
 }
 
 var slideIndex = 1;
-showSlides(slideIndex);
+showSlides3(slideIndex);
 
 function plusSlides3(n) {
-  showSlides(slideIndex += n);
+  showSlides3(slideIndex += n);
 }
 
 function currentSlide3(n) {
-  showSlides(slideIndex = n);
+  showSlides3(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides3(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides3");
   var dots = document.getElementsByClassName("demo3");
