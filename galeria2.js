@@ -7,14 +7,14 @@ function closeModal2() {
 }
 
 var slideIndex = 1;
-showSlides2(slideIndex);
+showSlides(slideIndex);
 
 function plusSlides2(n) {
-  showSlides2(slideIndex += n);
+  showSlides(slideIndex += n);
 }
 
 function currentSlide2(n) {
-  showSlides2(slideIndex = n);
+  showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
