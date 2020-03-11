@@ -154,6 +154,30 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+
+/* The Modal (background) */
+.modal4 {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 2vw;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #0B0D1F;
+}
+
+/* Modal Content */
+.modal-content4 {
+  position: relative;
+  background-color: #0B0D1F;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
 /* The Close Button */
 .close {
   color: white;
@@ -179,7 +203,9 @@ body {
   display: none;
 }
 
-
+.mySlides4 {
+  display: none;
+}
 .mySlides3 {
   display: none;
 }
@@ -244,6 +270,35 @@ body {
 /* On hover, add a black background color with a little bit see-through */
 .prev2:hover,
 .next2:hover {
+  background-color: #0B0D0F;
+}
+
+.prev4,
+.next4 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next4 {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev4:hover,
+.next4:hover {
   background-color: #0B0D0F;
 }
 
@@ -314,11 +369,19 @@ img {
 .demo3 {
   opacity: 0.6;
 }
+.demo4 {
+  opacity: 0.6;
+}
 
 .active3,
 .demo3:hover {
   opacity: 1;
 }
+.active4,
+.demo4:hover {
+  opacity: 1;
+}
+
 .active2,
 .demo2:hover {
   opacity: 1;
