@@ -1,27 +1,27 @@
-function openModal() {
-  document.getElementById("myModal2").style.display = "block";
+function openModal3() {
+  document.getElementById("myModal3").style.display = "block";
 }
 
-function closeModal() {
-  document.getElementById("myModal2").style.display = "none";
+function closeModal3() {
+  document.getElementById("myModal3").style.display = "none";
 }
 
 var slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
+function plusSlides3(n) {
   showSlides(slideIndex += n);
 }
 
-function currentSlide(n) {
+function currentSlide3(n) {
   showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
+  var slides = document.getElementsByClassName("mySlides3");
+  var dots = document.getElementsByClassName("demo3");
+  var captionText = document.getElementById("caption3");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
@@ -37,6 +37,6 @@ function showSlides(n) {
   document.onkeydown = function(evt) {
     evt = evt || window.event;
     if (evt.keyCode == 27) {
-        closeModal();
+        closeModal3();
     }
 }
