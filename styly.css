@@ -17,9 +17,9 @@
 /* Style the tab */
 .tab {
   text-align: center;
-  overflow: auto;
+  overflow: visible;
   border: 1px solid #ccc;
-  background-color: #A6A6A6;
+  background-color: #fefefe;
 }
 
 /* Style the buttons inside the tab */
