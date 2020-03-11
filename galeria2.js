@@ -17,7 +17,7 @@ function currentSlide2(n) {
   showSlides2(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides2(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides2");
   var dots = document.getElementsByClassName("demo2");
