@@ -39,16 +39,10 @@ function showSlides2(n) {
     if (evt.keyCode == 27) {
         closeModal2();
     }
-}
-document.onkeydown = function(evt) {
-  evt = evt || window.event;
-  if (evt.keyCode == 37) {
+   if (evt.keyCode == 37) {
       plusSlides2(-1);
-  }
-}
-document.onkeydown = function(evt) {
-  evt = evt || window.event;
-  if (evt.keyCode == 39) {
+   }
+   if (evt.keyCode == 39) {
       plusSlides2(1);
   }
 }
