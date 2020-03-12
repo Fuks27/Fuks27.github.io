@@ -45,3 +45,4 @@ function showSlides(n) {
    if (evt.keyCode == 39) {
       plusSlides(1);
   }
+  }
