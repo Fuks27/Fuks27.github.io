@@ -1,11 +1,9 @@
 function openModal() {
   document.getElementById("myModal").style.display = "block";
-  document.getElementById("myModal2").style.display = "block";
 }
 
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
-  document.getElementById("myModal2").style.display = "none";
 }
 
 var slideIndex = 1;
@@ -21,11 +19,9 @@ function currentSlide(n) {
 
 function showSlides(n) {
   var i;
-  var slides = document.getElementsById("mySlides");
-  var slides = document.getElementsById("mySlides2");
+  var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("demo");
   var captionText = document.getElementById("caption");
-  var captionText = document.getElementById("caption2");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
@@ -44,6 +40,7 @@ function showSlides(n) {
         closeModal();
     }
 }
+
 
 document.onkeydown = function(evt) {
   evt = evt || window.event;
