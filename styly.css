@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
+.popis{
+text-decoration: none;
+font-size: 120%;
+color: #060712;
+}
+
+h3 {
+	font-family: 'Crimson Text', serif;
+	font-size: 125%;
+	text-decoration: none;
+	}
+
 	body {
   font-family: 'Crimson Text', serif;
   margin: 0;
 }
 
 .nadpis2 {
-  color: #0B0D1F;
   border: 1px hidden;
   fontFamily: 'Crimson Text', serif;
   font-size: 150%;
@@ -38,14 +50,14 @@
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #232535;
-	color: #0B0D1F;
+  background-color: #3b3d4b;
+	color: #0B0D1F !important;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
 	background-color: #aeaeae;
-	color: #0B0D1F;
+	color: #0B0D1F !important;
 }
 
 /* Style the tab content */
