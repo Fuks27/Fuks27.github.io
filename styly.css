@@ -1,5 +1,5 @@
 	body {
-  font-family: Tahoma, sans-serif;
+  font-family: Alegreya, sans-serif;
   margin: 0;
 }
 
@@ -7,7 +7,7 @@
   fontFamily: ;
   color: #0B0D1F;
   border: 1px hidden;
-  fontFamily: Tahoma, sans-serif;
+  fontFamily: Alegreya, sans-serif;
   font-size: 20px;
 }
  script {
@@ -19,6 +19,7 @@
   text-align: center;
   overflow: hidden;
   background-color: #0B0D1F;
+	color: #ccc;
 }
 
 /* Style the buttons inside the tab */
