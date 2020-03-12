@@ -2,7 +2,7 @@
 
 .galfot {
 border-radius: 1%;
-border: solid white 1px;
+text-shadow: 1px 1px 1px white;
 box-shadow: 1px 1px 1px #080a18;
 }
 
@@ -46,7 +46,7 @@ h3 {
 .tab button {
   background-color: #0B0D1F;
   float: left;
-  border: none;
+  border: 2px solid #aeaeae;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
