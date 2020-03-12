@@ -13,12 +13,11 @@
  script {
   display: none;
 }
-  
+
 /* Style the tab */
 .tab {
   text-align: center;
   overflow: hidden;
-
   background-color: #0B0D1F;
 }
 
@@ -32,17 +31,20 @@
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
- width: 25%;
+	width: 25%;
+	color: #ccc;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #b7b7b7;
+	color: #0B0D1F;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #aeaeae;
+	background-color: #aeaeae;
+	color: #0B0D1F;
 }
 
 /* Style the tab content */
@@ -51,8 +53,8 @@
   padding: 6px 12px;
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s;
- background-color: #aeaeae;
 	height: 100%;
+	background-color: #aeaeae;
 }
 
 /* Fade in tabs */
