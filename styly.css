@@ -21,7 +21,6 @@ h3 {
 }
 
 .nadpis2 {
-  border: 1px solid white;
   fontFamily: 'Crimson Text', serif;
   font-size: 150%;
 
@@ -55,7 +54,7 @@ h3 {
 /* Change background color of buttons on hover */
 .tab button:hover {
   background-color: #3b3d4b;
-	color: #0B0D1F !important;
+	color: #04050c !important;
 }
 
 /* Create an active/current tablink class */
