@@ -28,10 +28,10 @@ function showSlides4(n) {
       slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active3", "");
+      dots[i].className = dots[i].className.replace(" active4", "");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active3";
+  dots[slideIndex-1].className += " active4";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
   document.onkeydown = function(evt) {
