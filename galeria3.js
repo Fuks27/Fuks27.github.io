@@ -40,9 +40,9 @@ function showSlides3(n) {
         closeModal3();
     }
    if (evt.keyCode == 37) {
-      plusSlides2(-1);
+      plusSlides3(-1);
    }
    if (evt.keyCode == 39) {
-      plusSlides2(1);
+      plusSlides3(1);
   }
 }
