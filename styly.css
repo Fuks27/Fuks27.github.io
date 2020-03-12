@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 
 .popis {
-text-indent: 15px;
+text-indent: 3vw;
 text-decoration: none;
 font-size: 120%;
 color: #060712;
 word-break: break-all;
+	margin-left: 1vw;
 }
 
 h3 {
