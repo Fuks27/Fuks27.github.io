@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 
-.galfot {
-border-radius: 1%;
-text-shadow: 1px 1px 1px white;
-box-shadow: 1px 1px 1px #080a18;
-}
 
 .popis {
 text-indent: 30px;
 text-decoration: none;
 font-size: 120%;
 color: #060712;
+word-break: break-all;
 }
 
 h3 {
