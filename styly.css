@@ -11,18 +11,19 @@ word-break: break-all;
 
 h3 {
 	font-family: 'Crimson Text', serif;
-	font-size: 125%;
-	text-decoration: none;
-	}
+	font-size: 140%;
+	text-decoration: underline;
+	color: #0B0D1F;
+}
 
-	body {
+body {
   font-family: 'Crimson Text', serif;
   margin: 0;
 }
 
 .nadpis2 {
   fontFamily: 'Crimson Text', serif;
-  font-size: 180%;
+  font-size: 150%;
 }
  script {
   display: none;
