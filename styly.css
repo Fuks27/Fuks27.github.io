@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
 
-.popis{
+.galfot {
+border-radius: 1%;
+border: solid white 1px;
+box-shadow: 1px 1px 1px #080a18;
+}
+
+.popis {
+text-indent: 30px;
 text-decoration: none;
 font-size: 120%;
 color: #060712;
@@ -18,9 +25,10 @@ h3 {
 }
 
 .nadpis2 {
-  border: 1px hidden;
+  border: 1px solid white;
   fontFamily: 'Crimson Text', serif;
   font-size: 150%;
+
 }
  script {
   display: none;
