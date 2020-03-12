@@ -1,5 +1,7 @@
-	body {
-  font-family: Alegreya, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Alegreya&display=swap');
+
+body {
+  font-family: Alegreya, serif;
   margin: 0;
 }
 
@@ -7,7 +9,7 @@
   fontFamily: ;
   color: #0B0D1F;
   border: 1px hidden;
-  fontFamily: Alegreya, sans-serif;
+  fontFamily: Alegreya, serif;
   font-size: 20px;
 }
  script {
