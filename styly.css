@@ -10,6 +10,7 @@ word-break: break-all;
 }
 
 h3 {
+	text-indent: 2vw;
 	font-family: 'Crimson Text', serif;
 	font-size: 140%;
 	text-decoration: underline;
