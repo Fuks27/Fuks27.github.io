@@ -43,8 +43,8 @@ border-radius: 7% 7% 0% 0%;
 .tab button {
   background-color: #0B0D1F;
   float: left;
-  border-left: 1px solid #aeaeae;
-	border-right: 1px solid #aeaeae;
+  border-left: 1px solid #05060f;
+	border-right: 1px solid #05060f;
 	border-top: hidden;
 	border-bottom: hidden;
   outline: none;
