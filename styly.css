@@ -63,7 +63,7 @@ body {
 	border-left: 4px solid #3b3d4b;
 	border-right: 4px solid #3b3d4b;
 	border-top: 4px solid #05060f;
-	border-bottom: 1px solid #3b3d4b;
+	border-bottom: hidden;
 }
 
 /* Create an active/current tablink class */
