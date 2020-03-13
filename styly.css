@@ -36,7 +36,7 @@ body {
   overflow: hidden;
   background-color: #0B0D1F;
 	color: #ccc;
-border-radius: 7% 7% 0% 0%;
+  border-radius: 7% 7% 0% 0%;
 }
 
 /* Style the buttons inside the tab */
@@ -60,6 +60,10 @@ border-radius: 7% 7% 0% 0%;
 .tab button:hover {
   background-color: #3b3d4b;
 	color: #04050c !important;
+	border-left: 4px solid #3b3d4b;
+	border-right: 4px solid #3b3d4b;
+	border-top: 4px solid #05060f;
+	border-bottom: 1px solid #3b3d4b;
 }
 
 /* Create an active/current tablink class */
