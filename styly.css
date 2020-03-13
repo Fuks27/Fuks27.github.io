@@ -41,7 +41,7 @@ body {
 	border-left: 4px solid #0B0D1F  !important;
 	border-right: 4px  solid #0B0D1F !important;
 	border-top: 4px  solid #0B0D1F !important;
-	border-bottom: 5px solid #0B0D1F !important;
+	border-bottom: hidden;
 }
 
 /* Style the buttons inside the tab */
@@ -78,7 +78,7 @@ body {
 	border-left: 4px solid #0B0D1F  !important;
 	border-right: 4px  solid #0B0D1F !important;
 	border-top: 4px  solid #0B0D1F !important;
-  border-bottom: 5px solid #0B0D1F !important;
+  border-bottom: hidden;
 }
 
 /* Style the tab content */
@@ -92,7 +92,7 @@ body {
 	border-left: 4px solid #0B0D1F;
 	border-right: 4px  solid #0B0D1F;
 	border-top: hidden ;
-	border-bottom: hidden ;
+	border-bottom: 5px solid #0B0D1F !important ;
 }
 
 /* Fade in tabs */
