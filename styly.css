@@ -73,6 +73,10 @@ border-radius: 7% 7% 0% 0%;
   animation: fadeEffect 1s;
 	height: 100%;
 	background-color: #aeaeae;
+	border-left: 4px solid #0B0D1F;
+	border-right: 4px  solid #0B0D1F;
+	border-top: hidden ;
+	border-bottom: hidden ;
 }
 
 /* Fade in tabs */
