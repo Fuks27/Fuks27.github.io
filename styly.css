@@ -60,8 +60,8 @@ body {
 .tab button:hover {
   background-color: #3b3d4b;
 	color: #04050c !important;
-	border-left: 4px solid #0B0D1F;
-	border-right: 4px solid #0B0D1F;
+	border-left: 1px solid #0B0D1F;
+	border-right: 1px solid #0B0D1F;
 	border-top: 4px solid #0B0D1F;
 	border-bottom: hidden;
 }
