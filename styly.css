@@ -66,9 +66,9 @@ border-radius: 7% 7% 0% 0%;
 .tab button.active {
 	background-color: #aeaeae;
 	color: #0B0D1F !important;
-	border-left: 4px solid #0B0D1F;
-	border-right: 4px  solid #0B0D1F;
-	border-top: 4px  solid #0B0D1F;
+	border-left: 4px solid #0B0D1F  !important;
+	border-right: 4px  solid #0B0D1F !important;
+	border-top: 4px  solid #0B0D1F !important;
 	border-bottom: hidden ;
 }
 
