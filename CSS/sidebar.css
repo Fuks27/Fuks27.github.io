@@ -18,6 +18,9 @@
 .sidebar-si {
   width: 25%;
   height: 25vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 body {
