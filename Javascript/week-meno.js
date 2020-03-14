@@ -5,8 +5,8 @@ function findOddEven(){
     //if the value of c is 2 then it is a prime number
     //because a prime number should be exactly divisible by 2 times only (itself and 1)
     if ( num % 2 == 0) {
-        document.getElementById('result').innerHTML = num + ' is a Even number';
+        document.getElementById('result').innerHTML = 'Nepárny týždeň' ;
     }else{
-        document.getElementById('result').innerHTML = num + ' is a Odd number';
+        document.getElementById('result').innerHTML ='Párny týždeň';
     }
-}       
+}
