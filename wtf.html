@@ -1,0 +1,29 @@
+<p id="demo"></p>
+<script>
+Date.prototype.getWeekNumber = function(){
+  var d = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
+  var dayNum = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+  var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+  return Math.ceil((((d - yearStart) / 86400000) + 1)/7)
+};
+
+document.getElementById("demo").innerHTML = ( + new Date().getWeekNumber());
+</script>
+<div style="margin-top: 10px;" id="result"></div>
+<script>
+            function findOddEven(){
+                //get the input value
+                var num = document.getElementById("demo").innerHTML = ( + new Date().getWeekNumber());
+
+                //if the value of c is 2 then it is a prime number
+                //because a prime number should be exactly divisible by 2 times only (itself and 1)
+                if ( num % 2 == 0) {
+                    document.getElementById('result').innerHTML = num + ' is a Even number';
+                }else{
+                    document.getElementById('result').innerHTML = num + ' is a Odd number';
+                }
+            }
+</script>
+
+<p id="result" onload="findOddEven()"></p>
