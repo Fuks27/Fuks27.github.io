@@ -1,4 +1,3 @@
-
 function myFunction2(){
 Date.prototype.getWeekNumber = function(){
   var d = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
@@ -44,6 +43,6 @@ var addFunctionOnWindowLoad = function(callback){
       }
 }
 
+addFunctionOnWindowLoad(myFunction2);
 addFunctionOnWindowLoad(findOddEven);
 addFunctionOnWindowLoad(myFunction);
-addFunctionOnWindowLoad(myFunction2);
