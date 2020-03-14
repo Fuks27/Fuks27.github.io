@@ -4,4 +4,4 @@ var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 
 today = dd + '.' + mm + '.' + yyyy;
-  document.getElementById('vysledok').innerHTML = 'Dnes je '+ (today) + document.getElementById('result').innerHTML ;
+  document.getElementById('vysledok').innerHTML = 'Dnes je '+ (today) + document.getElementsByClassName('result').innerHTML ;
