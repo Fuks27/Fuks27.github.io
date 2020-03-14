@@ -1,3 +1,17 @@
+
+function myFunction2(){
+Date.prototype.getWeekNumber = function(){
+  var d = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
+  var dayNum = d.getUTCDay() || 7;
+  d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+  var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+  return Math.ceil((((d - yearStart) / 86400000) + 1)/7)
+};
+
+document.getElementById("cislo").innerHTML = ( + new Date().getWeekNumber());
+
+}
+
 function findOddEven(){
     //get the input value
     var num = document.getElementById("cislo").innerHTML = ( + new Date().getWeekNumber());
@@ -18,7 +32,7 @@ var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
 
 today = dd + '.' + mm + '.' + yyyy;
-  document.getElementById('vysledok').innerHTML = 'Dnes je '+ (today) + document.getElementById("result").innerHTML;
+  document.getElementById('vysledok').innerHTML = 'Dnes je '+ (today) + document.getElementById("okej").innerHTML;
 }
 
 
@@ -32,3 +46,4 @@ var addFunctionOnWindowLoad = function(callback){
 
 addFunctionOnWindowLoad(findOddEven);
 addFunctionOnWindowLoad(myFunction);
+addFunctionOnWindowLoad(myFunction2);
