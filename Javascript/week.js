@@ -6,4 +6,4 @@ Date.prototype.getWeekNumber = function(){
   return Math.ceil((((d - yearStart) / 86400000) + 1)/7)
 };
 
-document.getElementsByClassName("demo").innerHTML = ( + new Date().getWeekNumber());
+document.getElementById("demo").innerHTML = ( + new Date().getWeekNumber());
