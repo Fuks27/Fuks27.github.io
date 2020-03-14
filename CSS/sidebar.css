@@ -1,0 +1,26 @@
+.wrapper-si {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-si,
+.sidebar-si {
+  border: 3px solid black;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.main-si {
+  width: 60%;
+  height: 150vh;
+}
+
+.sidebar-si {
+  width: 25%;
+  height: 25vh;
+}
+
+body {
+
+  padding: 10px;
+}
